@@ -23,9 +23,9 @@ function HeroProgram({ data }) {
   return (
     <section className="w-full">
       {/* Desktop Images */}
-      <div className="hidden md:grid grid-cols-3 ">
+      <div className="hidden md:grid grid-cols-3  ">
         {image.map((img, index) => (
-          <img key={index} src={`/${img.src}`} alt={img.alt} className="w-full" />
+          <img key={index} src={`/${img.src}`} alt={img.alt} className="w-full h-full object-cover" />
         ))}
       </div>
 

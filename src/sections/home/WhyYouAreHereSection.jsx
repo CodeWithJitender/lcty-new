@@ -97,14 +97,14 @@ function WhyYouAreHereSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
           {/* Image */}
           <Slider {...settings}>
-          <div className="px-1">
-            <img src="why-1.jpg" alt="Kids Yoga" className=" w-full" />
+          <div className="px-1 h-[600px]">
+            <img src="wh1.png" alt="Kids Yoga" className=" w-full h-full object-cover object-bottom " />
           </div>
-          <div className="px-1">
-            <img src="why-2.jpg" alt="Kids Yoga" className=" w-full" />
+          <div className="px-1 h-[600px]">
+            <img src="wh4.png" alt="Kids Yoga" className=" w-full h-full object-cover object-bottom " />
           </div>
-          <div className="px-1">
-            <img src="why-3.jpg" alt="Kids Yoga" className=" w-full" />
+          <div className="px-1 h-[600px]">
+            <img src="wh3.png" alt="Kids Yoga" className=" w-full h-full object-cover object-bottom " />
           </div>
         </Slider>
 

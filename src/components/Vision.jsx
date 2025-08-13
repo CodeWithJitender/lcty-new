@@ -25,9 +25,9 @@ export default function Vision() {
     fontSize: "h1",
   };
   const imgData = [
-  { src: "/vision-1.jpg", alt: "Therapy session 1" },
-  { src: "/vision-2.jpg", alt: "Therapy session 2" },
-  { src: "/vision-3.jpg", alt: "Therapy session 3" },
+  { src: "wh1.png", alt: "Therapy session 1" },
+  { src: "wh2.png", alt: "Therapy session 2" },
+  { src: "wh3.png", alt: "Therapy session 3" },
 ];
   return (
     <section className="relative bg-white py-16 ps-4 md:ps-8 overflow-x-hidden">

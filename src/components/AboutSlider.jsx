@@ -39,7 +39,7 @@ function AboutSlider({ imgData = [] }) {
     <section className="py-12">
       <Slider {...sliderSettings}>
         {imgData.map((img, index) => (
-          <div className="px-5" key={index}>
+          <div className="px-5 h-[350px]" key={index}>
             <img
               src={typeof img === "string" ? img : img.src}
               alt={img.alt || `slide-${index}`}

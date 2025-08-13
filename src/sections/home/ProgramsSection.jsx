@@ -21,7 +21,7 @@ function ProgramsSection() {
       title: "Physical Therapy",
       description:
         "We're here to help your child get stronger and more coordinated so they can do everyday things with ease.",
-      image: "care-1.jpg",
+      image: "sen1.png",
       bg: "#F9D9E4",
       link:"/programs/physical-therapy"
     },
@@ -30,7 +30,7 @@ function ProgramsSection() {
       title: "Occupational Therapy",
       description:
         "We can help your child with everyday tasks like getting dressed and eating and encourage independence through fun, new activities.",
-      image: "care-2.jpg",
+      image: "oc1.png",
       bg: "#D4E9FF",
       link:"/programs/occupational-therapy"
     },
@@ -39,7 +39,7 @@ function ProgramsSection() {
       title: "Speech Therapy",
       description:
         "We can help children communicate better by boosting their speech, language and social skills so they can speak confidently in public.",
-      image: "care-3.jpg",
+      image: "Speech2.png",
       bg: "#FFEFD4",
       link:"/programs/speech-therapy"
     },
@@ -48,7 +48,7 @@ function ProgramsSection() {
       title: "Applied Behavior Analysis (ABA)",
       description:
         "We can help kids build positive behavior, social skills and learning routines through meaningful encouragement while keeping things systematic and evidence-based.",
-      image: "care-4.jpg",
+      image: "aba2.png",
       bg: "#E0FFE6",
       link:"/programs/applied-behavior-analysis"
     },
@@ -72,14 +72,14 @@ function ProgramsSection() {
         <img
           src={programs[activeIndex].image}
           alt="Program Image"
-          className="rounded-lg w-full object-cover block lg:hidden mb-8"
+          className="rounded-lg w-full h-full object-cover object-top block lg:hidden mb-8"
         />
 
         {/* Content Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
           {/* Image Box - Desktop */}
           <div
-            className="hidden lg:block rounded-lg transition-all duration-500"
+            className="hidden lg:block rounded-lg transition-all duration-500 h-[700px]"
             style={{
               backgroundColor: programs[activeIndex].bg,
             }}
@@ -87,7 +87,7 @@ function ProgramsSection() {
             <img
               src={programs[activeIndex].image}
               alt="Program"
-              className="rounded-lg w-full object-cover transition duration-300"
+              className="rounded-lg w-full h-full object-cover object-top transition duration-300"
             />
           </div>
 

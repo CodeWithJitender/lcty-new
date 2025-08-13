@@ -25,9 +25,9 @@ export default function Mission() {
     fontSize:"h1"
   };
   const imgData = [
-  { src: "/mission-1.jpg", alt: "Therapy session 1" },
-  { src: "/mission-2.jpg", alt: "Therapy session 2" },
-  { src: "/mission-3.jpg", alt: "Therapy session 3" },
+  { src: "wh7.png", alt: "Therapy session 1" },
+  { src: "wh5.png", alt: "Therapy session 2" },
+  { src: "wh6.png", alt: "Therapy session 3" },
 ];
 
   return (

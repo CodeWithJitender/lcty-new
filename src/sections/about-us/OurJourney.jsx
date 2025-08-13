@@ -9,7 +9,7 @@ const steps = [
     italic: "dolor sit",
     bold: "adipiscing",
     text: "We began offering therapy and yoga services out in the community—bringing support right where people needed it.",
-    image: "journey-1.jpg",
+    image: "wh1.png",
   },
   {
     year: "2020",
@@ -17,7 +17,7 @@ const steps = [
     italic: "dolor sit",
     bold: "adipiscing",
     text: "We opened our first office in Boca Raton to have a dedicated space for our clients.",
-    image: "journey-2.jpg",
+    image: "wh2.png",
   },
   {
     year: "2021",
@@ -25,7 +25,7 @@ const steps = [
     italic: "dolor sit",
     bold: "adipiscing",
     text: "We expanded to West Palm Beach so more people could drop in for sessions.",
-    image: "journey-3.jpg",
+    image: "wh3.png",
   },
   {
     year: "2022",
@@ -83,8 +83,8 @@ export default function OurJourney() {
             <div className="md:w-[40%]" data-aos="fade-right">
               <JourneyCard data={steps[0]} />
             </div>
-            <div className="journey-img md:w-[40%]">
-              <img src="journey-1.jpg" alt="" className="w-full" />
+            <div className="journey-img md:w-[40%] h-[300px] ">
+              <img src="wh1.png" alt="" className="w-full h-full object-cover object-bottom " />
             </div>
           </div>
         </div>
@@ -96,8 +96,8 @@ export default function OurJourney() {
             <Number number="2" />
           </div>
           <div className="flex flex-col md:flex-row justify-between md:items-center md:gap-5">
-            <div className="journey-img md:w-[40%]">
-              <img src="journey-2.jpg" alt="" className="w-full" />
+            <div className="journey-img md:w-[40%] h-[300px]">
+              <img src="wh2.png" alt="" className="w-full h-full object-cover object-top " />
             </div>
             <div className="md:w-[40%]" data-aos="fade-left">
               <JourneyCard data={steps[1]} />
@@ -115,8 +115,8 @@ export default function OurJourney() {
             <div className="md:w-[40%]" data-aos="fade-right">
               <JourneyCard data={steps[2]} />
             </div>
-            <div className="journey-img md:w-[40%]">
-              <img src="journey-3.jpg" alt="" className="w-full" />
+            <div className="journey-img md:w-[40%] h-[300px]">
+              <img src="wh3.png" alt="" className="w-full h-full object-cover object-center" />
             </div>
           </div>
         </div>
@@ -128,8 +128,8 @@ export default function OurJourney() {
             <Number number="4" />
           </div>
           <div className="flex flex-col md:flex-row justify-between md:items-center md:gap-5">
-            <div className="journey-img md:w-[40%]">
-              <img src="journey-2.jpg" alt="" className="w-full" />
+            <div className="journey-img md:w-[40%] h-[300px]">
+              <img src="wh4.png" alt="" className="w-full h-full object-cover object-top" />
             </div>
             <div className="md:w-[40%]" data-aos="fade-left">
               <JourneyCard data={steps[3]} />
@@ -147,8 +147,8 @@ export default function OurJourney() {
             <div className="md:w-[40%]" data-aos="fade-right">
               <JourneyCard data={steps[4]} />
             </div>
-            <div className="journey-img md:w-[40%]">
-              <img src="journey-3.jpg" alt="" className="w-full" />
+            <div className="journey-img md:w-[40%] h-[300px]">
+              <img src="wh8.png" alt="" className="w-full h-full object-cover object-top" />
             </div>
           </div>
         </div>
@@ -160,8 +160,8 @@ export default function OurJourney() {
             <Number number="6" />
           </div>
           <div className="flex flex-col md:flex-row justify-between md:items-center md:gap-5">
-            <div className="journey-img md:w-[40%]">
-              <img src="journey-2.jpg" alt="" className="w-full" />
+            <div className="journey-img md:w-[40%] h-[300px]">
+              <img src="wh3.png" alt="" className=" w-full h-full object-cover object-center" />
             </div>
             <div className="md:w-[40%]" data-aos="fade-left">
               <JourneyCard data={steps[5]} />
@@ -179,8 +179,8 @@ export default function OurJourney() {
             <div className="md:w-[40%]" data-aos="fade-right">
               <JourneyCard data={steps[6]} />
             </div>
-            <div className="journey-img img-last md:w-[40%]">
-              <img src="journey-3.jpg" alt="" className="w-full" />
+            <div className="journey-img img-last md:w-[40%] h-[300px]">
+              <img src="wh7.png" alt="" className=" w-full h-full object-cover object-center" />
             </div>
           </div>
         </div>
