@@ -12,6 +12,7 @@ import ClinicLocation from "../sections/home/ClinicLocation";
 import MarqueeHome from "../sections/home/MarqueeHome";
 import BlogSection from "../sections/home/BlogSection";
 import LandingHero from "../sections/home/LandingHero";
+import RegistrationSteps from "../sections/home/RegistrationSteps";
 
 function Home() {
   const data = {
@@ -126,7 +127,8 @@ function Home() {
       <ProgramsSection />
       <ProgramsSectionCopy />
       <LetsShow />
-      <StepOneSection />
+      <RegistrationSteps />
+      {/* <StepOneSection /> */}
       <ResultSection />
       <SuccessStories />
       <ClinicLocation />

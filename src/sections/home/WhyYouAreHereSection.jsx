@@ -43,7 +43,7 @@ function WhyYouAreHereSection() {
       {
         breakpoint: 1280, // < 1280px
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 1,
           centerPadding: "40px",
         },
       },
@@ -96,17 +96,19 @@ function WhyYouAreHereSection() {
       <div className="container-fixed relative ">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
           {/* Image */}
-          <Slider {...settings}>
-          <div className="px-1 h-[600px]">
-            <img src="wh1.png" alt="Kids Yoga" className=" w-full h-full object-cover object-bottom " />
+          <div className="h-full">
+            <Slider {...settings}>
+          <div className="px-1 h-[450px]">
+            <img src="wh1.png" alt="Kids Yoga" className=" w-full h-full object-cover object-center " />
           </div>
-          <div className="px-1 h-[600px]">
-            <img src="wh4.png" alt="Kids Yoga" className=" w-full h-full object-cover object-bottom " />
+          <div className="px-1 h-[450px]">
+            <img src="wh2.jpg" alt="Kids Yoga" className=" w-full h-full object-cover object-center " />
           </div>
-          <div className="px-1 h-[600px]">
-            <img src="wh3.png" alt="Kids Yoga" className=" w-full h-full object-cover object-bottom " />
+          <div className="px-1 h-[450px]">
+            <img src="wh3.jpg" alt="Kids Yoga" className=" w-full h-full object-cover object-center " />
           </div>
         </Slider>
+          </div>
 
           {/* Text Content */}
           <div className="why-text-content" >
@@ -122,8 +124,8 @@ function WhyYouAreHereSection() {
                 "Your child struggles with speech or social skills.",
                 "They need a confidence boost in physical or fine-motor activities.",
                 "You're looking for gentle ways to help them handle big emotions.",
-                "Your child needs help with academic subjects for better understanding.",
-                "They struggle with making friends and need support in social skills.",
+                // "Your child needs help with academic subjects for better understanding.",
+                // "They struggle with making friends and need support in social skills.",
               ].map((item, i) => (
                 <li
                   key={i}
@@ -134,11 +136,11 @@ function WhyYouAreHereSection() {
                 </li>
               ))}
             </ul>
-            <p>
+            {/* <p>
               At Little Champs Therapy & Yoga, we meet kids where they are,
               celebrate every milestone and bring families along for the ride.
               That is all because we get it!
-            </p>
+            </p> */}
 
             <div className="mt-7">
               <ButtonPrimary link="https://app.practiceperfectemr.com/onlinebooking/633/#/landing/littlechamps" text="Register Now" />

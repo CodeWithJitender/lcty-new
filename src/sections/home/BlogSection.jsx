@@ -13,7 +13,11 @@ function BlogSection() {
       date: "14 March, 2025",
       image: "blog-1.jpg", // Replace with your image
       description:
-        "Helping your child find their voice starts with love and everyday moments. Say simple words while you play, read together, or talk about what you see on a walk. Connection creates confidence and that's where growth begins.",
+        `Helping your child find their voice starts with love and everyday moments. Say simple words while you play, read together, or talk about what you see on a walk. `,
+      // description:
+      //   `Helping your child find their voice starts with love and everyday moments. Say simple words while you play, read together, or talk about what you see on a walk. 
+      //   Connection creates confidence and that's where growth begins.
+      //   `,
     },
     {
       title: "Difficulties in feeding children",
@@ -22,7 +26,9 @@ function BlogSection() {
       date: "15 March, 2025",
       image: "blog-2.png", // Replace with your image
       description:
-        "Every word is a step toward healing. In celebration of Speech Therapy Month, we're sharing simple, meaningful ways to support articulation goals at home—through play, connection, and love. Let's continue to nurture every child's voice, one joyful moment at a time.",
+        "In celebration of Speech Therapy Month, we're sharing simple, meaningful ways to support articulation goals at home—through play, connection, and love. ",
+      // description:
+      //   "Every word is a step toward healing. In celebration of Speech Therapy Month, we're sharing simple, meaningful ways to support articulation goals at home—through play, connection, and love. ",
     },
   ];
   const data = {
@@ -38,31 +44,38 @@ function BlogSection() {
   return (
     <section className="relative" style={{ background: "linear-gradient(360deg, rgba(200, 182, 255, 0.4) 0%, rgba(255, 150, 255, 0) 100%)" }}>
       <div className="container-fixed">
-        <div className="flex flex-col lg:flex-row">
-          <div className="lg:w-[40%] sticky top-0" >
+        <div className="">
+          <div className="flex justify-between" >
             <Heading data={data} />
+             <div className="flex items-center justify-center ">
+                <Link to="/blog" className="flex items-center gap-2 ">
+                  <div className="w-14 h-14 secondary-bg-1 flex items-center justify-center rounded-full text-white body-t hover:bg-[#fab4fa] transition-all">
+                    <i class="fal fa-arrow-up rotate-45 "></i>
+                  </div>
+                </Link>
+              </div>
           </div>
 
-          <div className="lg:w-[60%]" data-aos="fade-up" data-aos-delay="300">
-            <div className="flex flex-col lg:flex-row gap-6">
-              <div className="">
+          <div className="" data-aos="fade-up" data-aos-delay="300">
+            <div className="">
+              <div className="grid grid-cols-2 gap-4">
                 {blogs.map((blog, index) => (
                   <div
                     key={index}
-                    className="grid md:grid-cols-2 primary-bg-2 text-white overflow-hidden shadow-lg mt-4"
+                    className="grid lg:grid-cols-2 primary-bg-2 text-white overflow-hidden shadow-lg mt-4 p-4 gap-4"
                   >
-                    <div className="p-5 pb-0 md:pb-5 md:pe-0">
+                    <div className="">
                       <img
                         src={blog.image}
                         alt="Blog"
-                        className="w-full object-cover"
+                        className=""
                       />
                     </div>
-                    <div className="p-5 flex-1 flex flex-col justify-between">
+                    <div className=" flex-1 flex flex-col justify-between">
                       <div>
-                        <h2 className="h4  mb-2">
-                          <span className="font-calvino">{blog.title} </span>
-                          <span className="font-calvino-italic">
+                        <h2 className="h4  mb-2 leading-none">
+                          <span className="font-calvino leading-none">{blog.title} </span>
+                          <span className="font-calvino-italic leading-none">
                             {blog.subtitle}
                           </span>
                         </h2>
@@ -84,13 +97,7 @@ function BlogSection() {
                   </div>
                 ))}
               </div>
-              <div className="flex items-end justify-center ">
-                <Link to="/blog">
-                  <div className="w-14 h-14 secondary-bg-1 flex items-center justify-center rounded-full text-white body-t hover:bg-[#fab4fa] transition-all">
-                    <i class="fal fa-arrow-up rotate-45 "></i>
-                  </div>
-                </Link>
-              </div>
+             
             </div>
           </div>
         </div>

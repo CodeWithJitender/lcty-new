@@ -6,7 +6,7 @@ import Card from "../../components/Card";
 function ClinicLocation() {
   const clinics = [
     {
-      title: "Palmetto Park, FL",
+      title: "Boca Raton, FL",
       image: "clinic-1.jpg",
       redirectUrl: "/location",
       bgColor: "primary-bg-2",

@@ -73,23 +73,15 @@ const CultureProgram = ({ data }) => {
             <Slider {...settings}>
               {image.map((img, index) => (
                 <div className="px-1">
-                  <img
-                    src={`/${img.src}`}
-                    alt="Kids Yoga"
-                    key={index}
-                    className="w-full mb-5"
-                  />
+                 <img
+                      src={`/${img.src}`}
+                      alt="Kids Yoga"
+                      key={index}
+                      className="w-full mb-5"
+                    />
                 </div>
               ))}
-              <div className="px-1">
-                {/* <img src={imageUrl} alt="Kids Yoga" className=" w-full mb-5" /> */}
-              </div>
-              <div className="px-1">
-                {/* <img src={imageUrl} alt="Kids Yoga" className=" w-full mb-5" /> */}
-              </div>
-              <div className="px-1">
-                {/* <img src={imageUrl} alt="Kids Yoga" className=" w-full mb-5" /> */}
-              </div>
+             
             </Slider>
           </div>
           {/* Text Content */}
