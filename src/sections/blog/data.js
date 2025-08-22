@@ -3,706 +3,119 @@ const posts = [
     author: "Olivia Rhye",
     date: "20 Jan 2024",
     title: [
-      { text: "Conversations with ", class: "font-calvino" },
-      { text: "Our Favorite London Studio,", class: "font-calvino-italic" },
-      { text: " Makr & Co. ", class: "font-calvino" },
+      { text: "The Power of Early Communication: ", class: "font-calvino" },
+      { text: " Starting Sign Language", class: "font-calvino-italic" },
+      { text: " With Your Child. ", class: "font-calvino" },
     ],
-    description:
-      "We sat down with London’s fast-growing brand and product design studio Makr & Co to find out how they’ve used Untitled UI to 2x their revenue.",
+    description: [
+      `Do you remember one of those evenings where you're trying to cook dinner after a hectic day and your 10-month-old starts crying in their chair. You're trying to figure out if they are hungry, thirsty or what and the stress just keeps building with every cry. Just picture your baby looking at you, touching their fingers to their lips and then tapping their fingertips together. You instantly know they want more of that sweet potato puree they just had. All that frustration you had is now simply gone. Instead, you get this really sweet, connected moment.
+    `,
+      `Many parents are already doing it with baby sign language. Especially for busy parents, like working moms trying to do everything, finding ways to really connect and make life a little less stressful is a big deal. Sign language helps you understand what your little one needs, wants and even how they're feeling, long before they can say words. It's more than just hand signs, it's a way to really show them true love, support & understanding.`,
+    ],
     tags: ["Design", "Research", "Interview"],
     image: "vol-form.jpg",
     delay: "100",
     blogId: "blog1",
     content: [
       {
-        heading: "Selection of the Right Varieties and Seeds",
+        heading: "Why Early Communication Through Sign Language Matters?",
         paragraphs: [
-          "Selecting the right varieties and seeds is a key step in achieving a successful harvest. This includes in-depth research into varieties suited to environmental, climate and soil conditions, as well as selecting high-quality seeds that can provide optimal results.",
-          "By paying attention to these factors, farmers can increase their chances of achieving a profitable harvest.",
+          "So, why are a few hand signals such a big deal? It's all about giving your child a voice before they can actually speak. Babies and toddlers have complex thoughts and clear desires. Not being able to say what they want is a major source of frustration. When a baby can tell you they're hungry, tired or want more of their favorite peek-a-boo game, it can totally transform daily life.",
+          "The benefits are backed by powerful research. Teaching sign language doesn't just reduce meltdowns, it can also accelerate language and cognitive development.",
+          "An NIH-funded study found that two-year-olds who learned baby signs were three months ahead verbally. It gets even crazier, at age eight, these kids had IQ scores 12 points higher than those who didn't sign!",
+          "When you respond to your child's requests, you're essentially showing them that their feelings matter and that you're listening. That really helps build a secure connection and deepens your bond.",
+          "Those cries can feel like a never-ending string of baffling meltdowns. Often, these tantrums really just come down to a simple communication snag. Research shows that toddlers who are late talkers have tantrums almost twice as often as other kids their age. Sign language can be a huge help giving them a way to express themselves and calm down before things get out of hand.",
         ],
-        list: [
-          {
-            title: "Selection of the Right Varieties and Seeds",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Efficient Crop Management",
-            text: "The varieties should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Use of Agricultural Technology",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Choosing the Right Harvest Time",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Use of Agricultural Technology",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-        ],
+        list: [],
       },
-    ],
-    related: ["blog2", "blog3", "blog4" ],
-  },
-  {
-    author: "Phoenix Rikker",
-    date: "19 Jan 2024",
-    title: [
-      { text: "A Relentless Pursuit of ", class: "font-calvino" },
-      { text: " Perfection in ", class: "font-calvino-italic" },
-      { text: " Product Design ", class: "font-calvino" },
-    ],
-    description:
-      "Began to notice that there was a sharp contrast between well-made, crafted products and poorly made ones...",
-    tags: ["Product", "Research", "Frameworks"],
-    image: "vol-form.jpg",
-    delay: "200",
-    blogId: "blog2",
-    content: [
       {
-        heading: "Selection of the Right Varieties and Seeds",
+        heading: "When and How to Introduce Signs?",
         paragraphs: [
-          "Selecting the right varieties and seeds is a key step in achieving a successful harvest. This includes in-depth research into varieties suited to environmental, climate and soil conditions, as well as selecting high-quality seeds that can provide optimal results.",
-          "By paying attention to these factors, farmers can increase their chances of achieving a profitable harvest.",
+          "When's the Best Time to Start?",
+          "According to the American Academy of Pediatrics, the sweet spot for introducing sign language is around six to seven months. At this age, babies are developing the motor skills to form gestures and are beginning to understand cause and effect (If I do this, mommy brings me milk!). Some eager parents start as early as four months and that's perfectly fine too. Remember, babies as young as 8-9 months can often sign back giving them a powerful tool for expression right when they need it most.",
+          "Don’t worry if your little one doesn’t start signing back immediately. The key is consistent, patient repetition in a fun, low-pressure environment.",
         ],
         list: [
           {
-            title: "Selection of the Right Varieties and Seeds",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
+            title: "Start Small",
+            text: "No need to teach the whole sign language dictionary at once! Start with 3-5 signs that are really useful for your child's everyday life.",
           },
           {
-            title: "Efficient Crop Management",
-            text: "The varieties should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
+            title: "Say It as You Sign It",
+            text: "When you make the sign, always say the word out loud. This is super important! It helps your baby connect the gesture, the object or action and the spoken word which actually boosts their verbal development.",
           },
           {
-            title: "Use of Agricultural Technology",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
+            title: "Be Consistent",
+            text: `Keep signing! Use the sign for "milk" every time you give a bottle or nurse and "eat" at every meal. The more they see it, the quicker they'll pick it up.`,
           },
           {
-            title: "Choosing the Right Harvest Time",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
+            title: "Use It in Context",
+            text: "When you're teaching signs, try to do it right when the action is happening. It really helps your baby connect the dots.",
           },
           {
-            title: "Use of Agricultural Technology",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
+            title: "Get Expressive!",
+            text: "When you're signing, smile, sound enthusiastic and make eye contact. Your baby picks up on your facial expressions just as much as your hand movements.",
+          },
+          {
+            title: "Celebrate Every Attempt",
+            text: `No worries if your baby's first sign isn't spot-on! For "milk," they might just clench their fist randomly and that's totally fine. Just acknowledge and praise their effort with lots of enthusiasm!`,
           },
         ],
       },
-    ],
-    related: ["blog3", "blog4", "blog1"],
-  },
-   {
-    author: "Lana Steiner",
-    date: "19 Jan 2024",
-    title: [
-      { text: "How to Run a Successful ", class: "font-calvino" },
-      { text: "Business", class: "font-calvino-italic" },
-      { text: " With Your Partner ", class: "font-calvino" },
-    ],
-    description:
-      "Starting a business with your spouse or significant other is an exciting but delicate process and requires a great deal of faith.",
-    tags: ["Design", "Research"],
-    image: "vol-form.jpg",
-    delay: "300",
-    blogId: "blog3",
-    content: [
       {
-        heading: "Selection of the Right Varieties and Seeds",
+        heading: "More",
         paragraphs: [
-          "Selecting the right varieties and seeds is a key step in achieving a successful harvest. This includes in-depth research into varieties suited to environmental, climate and soil conditions, as well as selecting high-quality seeds that can provide optimal results.",
-          "By paying attention to these factors, farmers can increase their chances of achieving a profitable harvest.",
+          `This is usually the first sign everyone learns and loves! Just pinch your thumbs and fingers together on both hands to make two "O" shapes, then tap your fingertips together a few times. It's awesome for food, playtime or story time.`,
+          // `It's super easy to work these signs into your daily routine. Just show the "more" sign during meals and "all done" when you finish up. That first time your kiddo copies you? Pure magic.`
         ],
         list: [
           {
-            title: "Selection of the Right Varieties and Seeds",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
+            title: "Milk",
+            text: `This one's a real lifesaver! Just open and close your fist like you're milking a cow. Whether it's bottle time or a nursing session, this sign takes all the guesswork out of it..`,
           },
           {
-            title: "Efficient Crop Management",
-            text: "The varieties should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
+            title: "Eat",
+            text: "Just tap your flattened fingertips to your mouth, like you're putting food in.",
           },
           {
-            title: "Use of Agricultural Technology",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
+            title: "All Done",
+            text: ` This is a super helpful trick to stop food from flying around! Just start with your palms facing you, then flip 'em outwards. It's basically saying, "We're done here!" whether it's mealtime, bath time or playtime.`,
           },
           {
-            title: "Choosing the Right Harvest Time",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
+            title: "Help",
+            text: `This sign helps when your child's getting frustrated! Make a "thumbs up" with one hand, then put it on top of your other hand, palm up. Lift both hands together. It's a cool way for them to ask for help instead of getting upset and crying.`,
           },
           {
-            title: "Use of Agricultural Technology",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
+            title: "Water",
+            text: `To make the "W" sign, just hold up your three middle fingers and tap your index finger to your chin. It's a simple way for them to ask for a drink!`,
+          },
+          {
+            title: "",
+            text: `It's super easy to work these signs into your daily routine. Just show the "more" sign during meals and "all done" when you finish up. That first time your kiddo copies you? Pure magic.`,
           },
         ],
       },
-    ],
-    related: ["blog4", "blog1", "blog2"],
-  },
-  {
-    author: "Alec Whitten",
-    date: "17 Jan 2024",
-    title: [
-      { text: "A Continually Unfolding ", class: "font-calvino" },
-      { text: " History — Hillview by ", class: "font-calvino-italic" },
-      { text: " Made by Hand ", class: "font-calvino" },
-    ],
-    description:
-      "A single building occupies the hillside at Hillview, a historic 2400-hectare former sheep farm on Tasmania’s Bruny Island.",
-    tags: ["Design", "Architecture"],
-    image: "vol-form.jpg",
-    delay: "400",
-    blogId: "blog4",
-    content: [
       {
-        heading: "Selection of the Right Varieties and Seeds",
+        heading: "When Your Child Needs a Little Extra Support",
         paragraphs: [
-          "Selecting the right varieties and seeds is a key step in achieving a successful harvest. This includes in-depth research into varieties suited to environmental, climate and soil conditions, as well as selecting high-quality seeds that can provide optimal results.",
-          "By paying attention to these factors, farmers can increase their chances of achieving a profitable harvest.",
+          `Sign language is fantastic for all kids! Sometimes, a child might not be reaching their communication milestones. You might notice that by 12-15 months, your little one isn't pointing or waving, not babbling or doesn't respond to their name.`,
+          `If you're feeling a bit worried, remember that getting help is actually a really strong move. Being proactive about support can change everything. Professional speech therapy for kids is super effective for boosting development and confidence for both you and your child. Therapists often use sign language and other cool communication tools (AAC) to give kids ways to express themselves right away while they work on their talking skills. This isn't a sign that something went wrong but rather a powerful, forward-thinking step to help your child really shine. Finding the right therapy for kids in Florida can give you a clear path and a supportive partner on your journey.
+`,
         ],
         list: [
           {
-            title: "Selection of the Right Varieties and Seeds",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
+            title: "A Foundation for a Bright Future",
+            text: `Communication is the heart of that connection. By introducing baby sign language, you are giving your child an incredible gift. You’re reducing frustration, boosting their brain development, fostering emotional intelligence and laying a strong foundation for a lifetime of effective communication.`,
           },
           {
-            title: "Efficient Crop Management",
-            text: "The varieties should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Use of Agricultural Technology",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Choosing the Right Harvest Time",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Use of Agricultural Technology",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
+            title: "",
+            text: `At Little Champs Therapy & Yoga, we're all about helping every child find their voice. Whether you're teaching signs at home or getting some expert help, just know that every little step you take today is building a path to a brighter, more connected tomorrow. Every sign, every sound and every smile is a win worth celebrating!
+`,
           },
         ],
       },
     ],
-    related: ["blog1", "blog2", "blog3"],
+    related: ["blog2", "blog3", "blog4"],
   },
-/*  {
-    author: "Dewi Wilkinson",
-    date: "16 Jan 2024",
-    title: [
-      { text: "Cognitive Dissonance Theory: ", class: "font-calvino" },
-      { text: " Crash Course ", class: "font-calvino-italic" },
-      { text: " for UX Designers ", class: "font-calvino" },
-    ],
-    description:
-      "We all like to think of ourselves as rational beings. But our actions don’t always line up with what we believe.",
-    tags: ["Product", "Research", "Frameworks"],
-    image: "vol-form.jpg",
-    delay: "500",
-    blogId: "blog5",
-    content: [
-      {
-        heading: "Selection of the Right Varieties and Seeds",
-        paragraphs: [
-          "Selecting the right varieties and seeds is a key step in achieving a successful harvest. This includes in-depth research into varieties suited to environmental, climate and soil conditions, as well as selecting high-quality seeds that can provide optimal results.",
-          "By paying attention to these factors, farmers can increase their chances of achieving a profitable harvest.",
-        ],
-        list: [
-          {
-            title: "Selection of the Right Varieties and Seeds",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Efficient Crop Management",
-            text: "The varieties should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Use of Agricultural Technology",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Choosing the Right Harvest Time",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Use of Agricultural Technology",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-        ],
-      },
-    ],
-    related: ["blog6", "blog7","blog8"],
-  },
-  {
-    author: "Candice Wu",
-    date: "15 Jan 2024",
-    title: [
-      { text: "How Remote Work ", class: "font-calvino" },
-      { text: " Drastically Improved ", class: "font-calvino-italic" },
-      { text: " My Design Skills ", class: "font-calvino" },
-    ],
-    description:
-      "Remote working not only became feasible but beneficial. I became 15% more productive, with almost no difference in the effectiveness of my work.",
-    tags: ["Design", "Research"],
-    image: "vol-form.jpg",
-    delay: "600",
-    blogId: "blog6",
-    content: [
-      {
-        heading: "Selection of the Right Varieties and Seeds",
-        paragraphs: [
-          "Selecting the right varieties and seeds is a key step in achieving a successful harvest. This includes in-depth research into varieties suited to environmental, climate and soil conditions, as well as selecting high-quality seeds that can provide optimal results.",
-          "By paying attention to these factors, farmers can increase their chances of achieving a profitable harvest.",
-        ],
-        list: [
-          {
-            title: "Selection of the Right Varieties and Seeds",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Efficient Crop Management",
-            text: "The varieties should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Use of Agricultural Technology",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Choosing the Right Harvest Time",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Use of Agricultural Technology",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-        ],
-      },
-    ],
-    related: ["blog7","blog8", "blog9"],
-  },
-  {
-    author: "Natalie Craig",
-    date: "14 Jan 2024",
-    title: [
-      { text: "Exclusive Interview ", class: "font-calvino" },
-      { text: "with Designer,", class: "font-calvino-italic" },
-      { text: " Jasmin Chew ", class: "font-calvino" },
-    ],
-    description:
-      "Jasmin Chew is a 29-year-old photographer and photo editor from Toronto. She shared a few of her design principles with us.",
-    tags: ["Design", "Interview", "Research"],
-    image: "vol-form.jpg",
-    delay: "700",
-    blogId: "blog7",
-    content: [
-      {
-        heading: "Selection of the Right Varieties and Seeds",
-        paragraphs: [
-          "Selecting the right varieties and seeds is a key step in achieving a successful harvest. This includes in-depth research into varieties suited to environmental, climate and soil conditions, as well as selecting high-quality seeds that can provide optimal results.",
-          "By paying attention to these factors, farmers can increase their chances of achieving a profitable harvest.",
-        ],
-        list: [
-          {
-            title: "Selection of the Right Varieties and Seeds",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Efficient Crop Management",
-            text: "The varieties should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Use of Agricultural Technology",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Choosing the Right Harvest Time",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Use of Agricultural Technology",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-        ],
-      },
-    ],
-    related:  [,"blog8", "blog9" ,"blog10"],
-  },
-  {
-    author: "Drew Cano",
-    date: "13 Jan 2024",
-    title: [
-      { text: "Improve Your UI Design ", class: "font-calvino" },
-      { text: " Skills and Develop ", class: "font-calvino-italic" },
-      { text: " an 'Eye' for Design ", class: "font-calvino" },
-    ],
-    description:
-      "Design is constantly evolving. Learn how to develop your eye and improve your UI design skills in 2024.",
-    tags: ["Design", "Tools", "Research"],
-    image: "vol-form.jpg",
-    delay: "800",
-    blogId: "blog8",
-    content: [
-      {
-        heading: "Selection of the Right Varieties and Seeds",
-        paragraphs: [
-          "Selecting the right varieties and seeds is a key step in achieving a successful harvest. This includes in-depth research into varieties suited to environmental, climate and soil conditions, as well as selecting high-quality seeds that can provide optimal results.",
-          "By paying attention to these factors, farmers can increase their chances of achieving a profitable harvest.",
-        ],
-        list: [
-          {
-            title: "Selection of the Right Varieties and Seeds",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Efficient Crop Management",
-            text: "The varieties should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Use of Agricultural Technology",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Choosing the Right Harvest Time",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Use of Agricultural Technology",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-        ],
-      },
-    ],
-    related: [ "blog9",  "blog10",  "blog11"],
-  },
-  {
-    author: "Orlando Diggs",
-    date: "12 Jan 2024",
-    title: [
-      { text: "The Design Dilemma: ", class: "font-calvino" },
-      { text: " Is Best UX Practice ", class: "font-calvino-italic" },
-      { text: " the Enemy of Creativity?", class: "font-calvino" },
-    ],
-    description:
-      "Francis Sullivan explores the design dilemma — what happens when best practice UX design clashes with creative freedom.",
-    tags: ["Design", "Theory", "Research"],
-    image: "vol-form.jpg",
-    delay: "900",
-    blogId: "blog9",
-    content: [
-      {
-        heading: "Selection of the Right Varieties and Seeds",
-        paragraphs: [
-          "Selecting the right varieties and seeds is a key step in achieving a successful harvest. This includes in-depth research into varieties suited to environmental, climate and soil conditions, as well as selecting high-quality seeds that can provide optimal results.",
-          "By paying attention to these factors, farmers can increase their chances of achieving a profitable harvest.",
-        ],
-        list: [
-          {
-            title: "Selection of the Right Varieties and Seeds",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Efficient Crop Management",
-            text: "The varieties should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Use of Agricultural Technology",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Choosing the Right Harvest Time",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Use of Agricultural Technology",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-        ],
-      },
-    ],
-    related: ["blog10", "blog11", "blog12"],
-  },
-  {
-    author: "Chloe Chan",
-    date: "11 Jan 2024",
-    title: [
-      { text: "The Rise of ", class: "font-calvino" },
-      { text: "Minimalism", class: "font-calvino-italic" },
-      { text: " in Web UI ", class: "font-calvino" },
-    ],
-    description:
-      "Minimalist design has taken center stage. But is less always more? Let's explore how it's shaping modern UIs.",
-    tags: ["Design", "UI"],
-    image: "vol-form.jpg",
-    delay: "1000",
-    blogId: "blog10",
-    content: [
-      {
-        heading: "Selection of the Right Varieties and Seeds",
-        paragraphs: [
-          "Selecting the right varieties and seeds is a key step in achieving a successful harvest. This includes in-depth research into varieties suited to environmental, climate and soil conditions, as well as selecting high-quality seeds that can provide optimal results.",
-          "By paying attention to these factors, farmers can increase their chances of achieving a profitable harvest.",
-        ],
-        list: [
-          {
-            title: "Selection of the Right Varieties and Seeds",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Efficient Crop Management",
-            text: "The varieties should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Use of Agricultural Technology",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Choosing the Right Harvest Time",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Use of Agricultural Technology",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-        ],
-      },
-    ],
-    related: ["blog11", "blog12", "blog13"],
-  },
-  {
-    author: "Ravi Mehta",
-    date: "10 Jan 2024",
-    title: [
-      { text: "Breaking Down Complex ", class: "font-calvino" },
-      { text: " UX Concepts into ", class: "font-calvino-italic" },
-      { text: " Simple Frameworks ", class: "font-calvino" },
-    ],
-    description:
-      "Simplifying complexity is key in product design. Here’s how to break down UX theory into frameworks anyone can use.",
-    tags: ["UX", "Frameworks", "Learning"],
-    image: "vol-form.jpg",
-    delay: "1100",
-    blogId: "blog11",
-    content: [
-      {
-        heading: "Selection of the Right Varieties and Seeds",
-        paragraphs: [
-          "Selecting the right varieties and seeds is a key step in achieving a successful harvest. This includes in-depth research into varieties suited to environmental, climate and soil conditions, as well as selecting high-quality seeds that can provide optimal results.",
-          "By paying attention to these factors, farmers can increase their chances of achieving a profitable harvest.",
-        ],
-        list: [
-          {
-            title: "Selection of the Right Varieties and Seeds",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Efficient Crop Management",
-            text: "The varieties should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Use of Agricultural Technology",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Choosing the Right Harvest Time",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Use of Agricultural Technology",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-        ],
-      },
-    ],
-    related: ["blog12", "blog13", "blog14"],
-  },
-  {
-    author: "Yara Zane",
-    date: "09 Jan 2024",
-    title: [
-      { text: "From Chaos to ", class: "font-calvino" },
-      { text: "Clarity:", class: "font-calvino-italic" },
-      { text: " Organizing Your Design System", class: "font-calvino" },
-    ],
-    description:
-      "A clear, documented design system can save hours. We walk you through how to organize yours.",
-    tags: ["Design Systems", "Process"],
-    image: "vol-form.jpg",
-    delay: "1200",
-    blogId: "blog12",
-    content: [
-      {
-        heading: "Selection of the Right Varieties and Seeds",
-        paragraphs: [
-          "Selecting the right varieties and seeds is a key step in achieving a successful harvest. This includes in-depth research into varieties suited to environmental, climate and soil conditions, as well as selecting high-quality seeds that can provide optimal results.",
-          "By paying attention to these factors, farmers can increase their chances of achieving a profitable harvest.",
-        ],
-        list: [
-          {
-            title: "Selection of the Right Varieties and Seeds",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Efficient Crop Management",
-            text: "The varieties should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Use of Agricultural Technology",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Choosing the Right Harvest Time",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Use of Agricultural Technology",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-        ],
-      },
-    ],
-    related: ["blog13", "blog14", "blog15"],
-  },
-  {
-    author: "Leo Tran",
-    date: "08 Jan 2024",
-    title: [
-      { text: "How We Created ", class: "font-calvino" },
-      { text: " a Scalable ", class: "font-calvino-italic" },
-      { text: " Component Library ", class: "font-calvino" },
-    ],
-    description:
-      "Learn how our team built a reusable, scalable component library that works across platforms.",
-    tags: ["Development", "Design Systems"],
-    image: "vol-form.jpg",
-    delay: "1300",
-    blogId: "blog13",
-    content: [
-      {
-        heading: "Selection of the Right Varieties and Seeds",
-        paragraphs: [
-          "Selecting the right varieties and seeds is a key step in achieving a successful harvest. This includes in-depth research into varieties suited to environmental, climate and soil conditions, as well as selecting high-quality seeds that can provide optimal results.",
-          "By paying attention to these factors, farmers can increase their chances of achieving a profitable harvest.",
-        ],
-        list: [
-          {
-            title: "Selection of the Right Varieties and Seeds",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Efficient Crop Management",
-            text: "The varieties should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Use of Agricultural Technology",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Choosing the Right Harvest Time",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Use of Agricultural Technology",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-        ],
-      },
-    ],
-    related: ["blog14", "blog15", "blog1"],
-  },
-  {
-    author: "Mina Wong",
-    date: "07 Jan 2024",
-    title: [
-      { text: "The Psychology Behind ", class: "font-calvino" },
-      { text: " Color Choices ", class: "font-calvino-italic" },
-      { text: " in Branding ", class: "font-calvino" },
-    ],
-    description:
-      "Colors impact user perception more than you think. Here's a look at color psychology in modern branding.",
-    tags: ["Branding", "Psychology", "Design"],
-    image: "vol-form.jpg",
-    delay: "1400",
-    blogId: "blog14",
-    content: [
-      {
-        heading: "Selection of the Right Varieties and Seeds",
-        paragraphs: [
-          "Selecting the right varieties and seeds is a key step in achieving a successful harvest. This includes in-depth research into varieties suited to environmental, climate and soil conditions, as well as selecting high-quality seeds that can provide optimal results.",
-          "By paying attention to these factors, farmers can increase their chances of achieving a profitable harvest.",
-        ],
-        list: [
-          {
-            title: "Selection of the Right Varieties and Seeds",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Efficient Crop Management",
-            text: "The varieties should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Use of Agricultural Technology",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Choosing the Right Harvest Time",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Use of Agricultural Technology",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-        ],
-      },
-    ],
-    related: ["blog15", "blog1", "blog2"],
-  },
-  {
-    author: "Felix Rivera",
-    date: "06 Jan 2024",
-    title: [
-      { text: "Accessibility is Not ", class: "font-calvino" },
-      { text: " Optional: ", class: "font-calvino-italic" },
-      { text: " Building for Everyone ", class: "font-calvino" },
-    ],
-    description:
-      "Accessibility in design is a responsibility, not a bonus. Here's how to ensure inclusivity from day one.",
-    tags: ["Accessibility", "Design", "Ethics"],
-    image: "vol-form.jpg",
-    delay: "1500",
-    blogId: "blog15",
-    content: [
-      {
-        heading: "Selection of the Right Varieties and Seeds",
-        paragraphs: [
-          "Selecting the right varieties and seeds is a key step in achieving a successful harvest. This includes in-depth research into varieties suited to environmental, climate and soil conditions, as well as selecting high-quality seeds that can provide optimal results.",
-          "By paying attention to these factors, farmers can increase their chances of achieving a profitable harvest.",
-        ],
-        list: [
-          {
-            title: "Selection of the Right Varieties and Seeds",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Efficient Crop Management",
-            text: "The varieties should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Use of Agricultural Technology",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Choosing the Right Harvest Time",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-          {
-            title: "Use of Agricultural Technology",
-            text: "The seeds should be chosen from a variety of high-quality varieties that are suitable for the specific environment.",
-          },
-        ],
-      },
-    ],
-    related: ["blog1", "blog2", "blog3"],
-  }, */
 ];
 export default posts;

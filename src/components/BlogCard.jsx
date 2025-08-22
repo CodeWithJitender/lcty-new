@@ -29,7 +29,7 @@ const BlogCard = ({ post }) => {
             ))}
           </h2>
           <p className="text-sm body-t-color mb-4 font-archivo">
-            {post.description}
+            {post.description[0].slice(0, 100)}...
           </p>
           <div className="flex flex-wrap gap-2">
             {post.tags.map((tag, index) => (
