@@ -14,14 +14,15 @@ function ResultSection() {
     fontColor: "secondary-text-1",
     };
   return (
-     <section className="bg-white w-full " >
-      <div className="container-fixed">
-        <div className="md:flex gap-5 max-w-[1400px] pt-[50px]">
-          {/* Chart + Stat Box */}
-          <div className="relative md:max-w-4xl md:order-2 mb-5 md:mb-auto">
+     <section className=" w-full " >
+      <div className="max-w-[1600px] mx-auto px-4 pt-16 md:pt-20">
             <img src="result.jpg" className="w-full" alt="" />
 
-            {/* Stat Box */}
+        {/* <div className="md:flex gap-5  pt-[50px]">
+          Chart + Stat Box
+          <div className="relative md:max-w-4xl md:order-2 mb-5 md:mb-auto">
+
+            Stat Box
             <div className="md:absolute md:right-[-5%] md:top-[-20%] bg-[#8A63FF80] backdrop-blur-lg text-white p-4 md:rounded-2xl md:w-60 shadow-lg z-10 md:text-center w-full mt-4 md:mt-0">
               <h3 className="h4 font-calvino mb-2">Lorem ipsum dolor</h3>
               <p className="font-calvino-italic body-t mb-2" >Lorem ipsum</p>
@@ -36,8 +37,8 @@ function ResultSection() {
               </p>
             </div>
 
-            {/* Chart Placeholder */}
-            {/* <div className="bg-gradient-to-tr from-purple-300 to-pink-400 rounded-lg overflow-hidden">
+            Chart Placeholder
+            <div className="bg-gradient-to-tr from-purple-300 to-pink-400 rounded-lg overflow-hidden">
             <div className="relative h-64 sm:h-72 md:h-80 flex items-end justify-between px-6 pb-6 text-white text-sm font-light">
               <div className="absolute left-4 top-4 rotate-[-90deg] origin-left">
                 Lorem ipsum
@@ -58,11 +59,11 @@ function ResultSection() {
 
               <i className="fas fa-arrow-right absolute right-4 bottom-4 text-white text-sm"></i>
             </div>
-          </div> */}
+          </div>
             <div className=""></div>
           </div>
 
-          {/* Top Text */}
+          Top Text 
           <div className=" md:text-left md:max-w-[1000px] md:order-1">
             <div className="" data-aos="fade-up">
             <Heading data={data} />
@@ -80,7 +81,7 @@ function ResultSection() {
               Duis eu nisi non orci fermentum commodo.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )

@@ -13,6 +13,8 @@ import MarqueeHome from "../sections/home/MarqueeHome";
 import BlogSection from "../sections/home/BlogSection";
 import LandingHero from "../sections/home/LandingHero";
 import RegistrationSteps from "../sections/home/RegistrationSteps";
+import Timeline from "../sections/home/Timeline";
+import HorizontalScrollShowcase from "../sections/home/HorizontalScrollShowcase";
 
 function Home() {
   const data = {
@@ -119,7 +121,7 @@ function Home() {
     spacing: "p-4",
   };
   return (
-    <div className="overflow-x-hidden mt-[102px] md:mt-[128px]">
+    <div className=" mt-[102px] md:mt-[128px]">
       <LandingHero />
       {/* <Hero data={data} /> */}
       <WhyYouAreHereSection data={data2} />
@@ -129,6 +131,8 @@ function Home() {
       <LetsShow />
       <RegistrationSteps />
       {/* <StepOneSection /> */}
+      {/* <Timeline /> */}
+      {/* <HorizontalScrollShowcase /> */}
       <ResultSection />
       <SuccessStories />
       <ClinicLocation />
