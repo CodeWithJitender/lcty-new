@@ -23,7 +23,7 @@ function ClinicLocation() {
     },
     {
       title: "Coral Springs, FL",
-      image: "c111.jpg",
+      image: "l111.jpg",
       redirectUrl: "/location",
       bgColor: "primary-bg-2",
       btnBg: "secondary-bg-1",
