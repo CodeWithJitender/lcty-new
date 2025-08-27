@@ -34,8 +34,8 @@ function LandingHero() {
     "home-hero/hb-6.jpg",
   ];
   const img2 = [
-    "home-hero/hb-7.jpg",
-    "home-hero/hb-8.jpg",
+    "home-hero/hero1.jpeg",
+    "home-hero/hero2.jpg",
     "home-hero/hb-9.jpg",
     "home-hero/hb-10.jpg",
     "home-hero/hb-11.jpg",

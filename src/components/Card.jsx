@@ -12,7 +12,7 @@ function Card({ data }) {
        data-aos-delay={animationDelay}
     >
       <div className="card-img">
-        <img src={`/${image}`} className="w-full" alt="" />
+        <img src={`/${image}`} className="w-full " alt="" />
       </div>
       <div className={`card-text ${bgColor? `${bgColor} body-t-color`:"bg-[#ff96ff] text-white"}`}>
         <Link to={redirectUrl} className="flex items-center justify-between">

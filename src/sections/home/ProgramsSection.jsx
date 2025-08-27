@@ -22,7 +22,7 @@ function ProgramsSection() {
       title: "Physical Therapy",
       description:
         "We're here to help your child get stronger and more coordinated so they can do everyday things with ease.",
-      image: "pt-h.JPG",
+      image: "pt2.jpg",
       bg: "#F9D9E4",
       link: "/programs/physical-therapy",
     },
@@ -31,7 +31,7 @@ function ProgramsSection() {
       title: "Occupational Therapy",
       description:
         "We can help your child with everyday tasks like getting dressed and eating and encourage independence through fun, new activities.",
-      image: "ot-h.jpeg",
+      image: "ot1.jpg",
       bg: "#D4E9FF",
       link: "/programs/occupational-therapy",
     },
@@ -97,7 +97,7 @@ function ProgramsSection() {
             <img
               src={programs[activeIndex].image}
               alt="Program"
-              className="rounded-lg w-full  h-[400px] md:h-[620px]  object-cover object-top transition duration-300"
+              className="rounded-lg w-full  h-[400px] md:h-[620px]  object-cover transition duration-300"
             />
           </div>
 

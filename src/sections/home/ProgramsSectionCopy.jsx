@@ -40,7 +40,7 @@ function ProgramsSection() {
       title: "Interactive Metronome",
       description:
         "We'll have fun with rhythm exercises to boost your child’s timing, focus and coordination, which will help us with concentration and motor planning.",
-      image: "care-7.jpg",
+      image: "im1.jpeg",
       bg: "#FFEFD4",
       link: "/programs/interactive-metronome",
     },
@@ -49,7 +49,7 @@ function ProgramsSection() {
       title: "Tutoring",
       description:
         "We’ll help your child learn at their own pace with personalized support that matches their unique style, building confidence and mastering essential skills.",
-      image: "care-8.jpg",
+      image: "tut.jpeg",
       bg: "#E0FFE6",
       link: "/programs/tutoring",
     },
