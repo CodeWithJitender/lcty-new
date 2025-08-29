@@ -15,6 +15,7 @@ import LandingHero from "../sections/home/LandingHero";
 import RegistrationSteps from "../sections/home/RegistrationSteps";
 import Timeline from "../sections/home/Timeline";
 import HorizontalScrollShowcase from "../sections/home/HorizontalScrollShowcase";
+import StepsSection from "../sections/home/StepsSection";
 
 function Home() {
   const data = {
@@ -128,8 +129,9 @@ function Home() {
       <WhoWeAreSection />
       <ProgramsSection />
       <ProgramsSectionCopy />
-      <LetsShow />
-      <RegistrationSteps />
+      {/* <LetsShow /> */}
+      {/* <RegistrationSteps /> */}
+      <StepsSection />
       {/* <StepOneSection /> */}
       {/* <Timeline /> */}
       {/* <HorizontalScrollShowcase /> */}

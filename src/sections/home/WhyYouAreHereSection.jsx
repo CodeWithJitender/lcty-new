@@ -105,7 +105,7 @@ function WhyYouAreHereSection() {
             <img src="wh2.jpg" alt="Kids Yoga" className=" w-full h-full object-cover object-center " />
           </div>
           <div className="px-1 h-[450px]">
-            <img src="where1.jpg" alt="Kids Yoga" className=" w-full h-full object-cover object-center " />
+            <img src="wh3.jpeg" alt="Kids Yoga" className=" w-full h-full object-cover object-center " />
           </div>
         </Slider>
           </div>

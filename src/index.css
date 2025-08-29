@@ -398,6 +398,24 @@ p {
   /* border: 2px solid transparent; */
   background-clip: content-box;
 }
+.register-card{
+  transition: .5s;
+}
+.register-card::before{
+  content: " ";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #FFAFFF;
+  border-radius: 16px;
+  transition: .5s;
+}
+.register-card:hover::before{
+  transform: rotate(5deg);
+}
+
 
 @media screen and (max-width: 768px) {
   .container-fixed {
