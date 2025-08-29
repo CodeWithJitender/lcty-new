@@ -7,28 +7,14 @@ import Heading from "../../components/Heading";
 function BlogSection() {
   const blogs = [
     {
-      title: "Play with your child",
+      title: "The Power of Early Communication: Starting Sign Language With Your Child.",
       subtitle: "using simple words",
-      author: "Nisha",
-      date: "14 March, 2025",
-      image: "blog-1.jpg", // Replace with your image
+      author: "Olivia Rhye",
+      date: "20 Jan 2024",
+      link: "/blog/blog1",
+      image: "vol-form.jpg", // Replace with your image
       description:
-        `Helping your child find their voice starts with love and everyday moments. Say simple words while you play, read together, or talk about what you see on a walk. `,
-      // description:
-      //   `Helping your child find their voice starts with love and everyday moments. Say simple words while you play, read together, or talk about what you see on a walk. 
-      //   Connection creates confidence and that's where growth begins.
-      //   `,
-    },
-    {
-      title: "Difficulties in feeding children",
-      subtitle: "with special needs",
-      author: "Nisha",
-      date: "15 March, 2025",
-      image: "blog-2.png", // Replace with your image
-      description:
-        "In celebration of Speech Therapy Month, we're sharing simple, meaningful ways to support articulation goals at home—through play, connection, and love. ",
-      // description:
-      //   "Every word is a step toward healing. In celebration of Speech Therapy Month, we're sharing simple, meaningful ways to support articulation goals at home—through play, connection, and love. ",
+        `Do you remember one of those evenings where you're trying to cook dinner after a hectic day and your 10-month-old starts crying in their chair.`,
     },
   ];
   const data = {
@@ -60,7 +46,8 @@ function BlogSection() {
             <div className="">
               <div className="grid grid-cols-2 gap-4">
                 {blogs.map((blog, index) => (
-                  <div
+                  <Link
+                  to={blog.link}
                     key={index}
                     className="grid lg:grid-cols-2 primary-bg-2 text-white overflow-hidden shadow-lg mt-4 p-4 gap-4"
                   >
@@ -68,7 +55,7 @@ function BlogSection() {
                       <img
                         src={blog.image}
                         alt="Blog"
-                        className=""
+                        className="w-full h-full object-cover object-center"
                       />
                     </div>
                     <div className=" flex-1 flex flex-col justify-between">
@@ -83,18 +70,18 @@ function BlogSection() {
                           <span>{blog.author}</span>
                           <span>{blog.date}</span>
                         </div>
-                        <p className="font-archivo btn-t mb-4 text-white">
+                        {/* <p className="font-archivo btn-t mb-4 text-white">
                           {blog.description}
-                        </p>
+                        </p> */}
                       </div>
-                      <a
-                        href="#"
+                      <Link
+                        to={blog.link}
                         className=" text-white font-calvino-italic flex items-center gap-1 mt-auto "
                       >
                         Read more <i class="fal fa-arrow-right -rotate-45"></i>
-                      </a>
+                      </Link>
                     </div>
-                  </div>
+                  </Link>
                 ))}
               </div>
              
