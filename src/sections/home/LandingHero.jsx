@@ -11,7 +11,7 @@ function LandingHero() {
     ],
     paragraphs: [
       {
-        text: "We truly believe every child should have a safe and supportive place to move, unwind and develop healthy lifelong habits. That's why we've blended effective techniques with exciting games in our child-oriented yoga therapy. Through yoga and therapy, kids learn to handle their emotions, understand themselves better and become stronger – all while having fun!",
+        text: "Kids hold things we sometimes forget: big feelings, tiny worries, the kind of restlessness that looks like fidgeting but feels much deeper. We believe every child deserves a space that’s soft, steady and brave enough for all of that. Our kid-focused yoga therapy meets them where they are by using proven techniques wrapped in games and play, so they can move, settle and build healthy habits that stay with them long after class ends.",
         class: "text-center",
       },
     ],
@@ -47,9 +47,7 @@ function LandingHero() {
         <div className="landing-left px-4 flex flex-col justify-center items-start gap-4 lg:gap-8 py-[10vw] md:py-[6vw]">
           <Heading data={data} />
           <p className="text-white z-10">
-            We believe every child deserves a safe and supportive space to move,
-            calm down and build healthy habits for life. That's why our
-            kid-focused yoga therapy combines proven techniques with fun games.{" "}
+          Kids hold things we sometimes forget: big feelings, tiny worries, the kind of restlessness that looks like fidgeting but feels much deeper. We believe every child deserves a space that’s soft, steady and brave enough for all of that. Our kid-focused yoga therapy meets them where they are by using proven techniques wrapped in games and play, so they can move, settle and build healthy habits that stay with them long after class ends.
           </p>
           <div className="relative z-10">
             <ButtonPrimary link={data.btn.link} text={data.btn.text} />
