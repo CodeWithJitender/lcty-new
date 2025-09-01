@@ -22,7 +22,7 @@ function ClinicLocation() {
       btnText: "text-white",
     },
     {
-      title: "Coral Springs, FL",
+      title: "FT Lauderdale, FL",
       image: "l111.jpg",
       redirectUrl: "/location",
       bgColor: "primary-bg-2",
