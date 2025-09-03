@@ -60,7 +60,7 @@ function BlogDetail({ dataId }) {
               {text}
             </p>
           ))}
-          {section.list.map((item, i) => (
+          {section.list && section.list.map((item, i) => (
             <div className="list mt-7" key={i}>
               <h3 className="h4 font-calvino mb-2 secondary-text-1">
                 {item.title}
