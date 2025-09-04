@@ -7,7 +7,7 @@ function ClinicLocation() {
   const clinics = [
     {
       title: "Boca Raton, FL",
-      image: "bo2.jpg",
+      image: "bo1.jpg",
       redirectUrl: "/location",
       bgColor: "primary-bg-2",
       btnBg: "secondary-bg-1",
@@ -15,7 +15,7 @@ function ClinicLocation() {
     },
     {
       title: "Delray Beach, FL",
-      image: "d11.jpg",
+      image: "bo2.jpg",
       redirectUrl: "/location",
       bgColor: "primary-bg-2",
       btnBg: "secondary-bg-1",
@@ -32,6 +32,14 @@ function ClinicLocation() {
     {
       title: "West Palm Beach, FL",
       image: "c111.jpg",
+      redirectUrl: "/location",
+      bgColor: "primary-bg-2",
+      btnBg: "secondary-bg-1",
+      btnText: "text-white",
+    },
+    {
+      title: "Coral Springs, FL",
+      image: "bo5.jpg",
       redirectUrl: "/location",
       bgColor: "primary-bg-2",
       btnBg: "secondary-bg-1",
@@ -67,7 +75,7 @@ function ClinicLocation() {
         </div>
         </div>
 
-        <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-4 mx-auto">
+        <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 mx-auto">
           {
             clinics.map((clinic, index)=>(
               <Card data={clinic} />

@@ -1316,11 +1316,11 @@ function Header() {
 
   const navLinks = [
     { name: "Home", path: "/" },
-    { name: "About us", path: "/about-us" },
+    { name: "About Us", path: "/about-us" },
     { name: "Programs", path: "/programs" },
-    { name: "Prospective clients", path: "/prospective-clients" },
-    { name: "Our team", path: "/our-team" },
-    { name: "Community partners", path: "/community-partners" },
+    { name: "Prospective Clients", path: "/prospective-clients" },
+    { name: "Our Team", path: "/our-team" },
+    { name: "Community Partners", path: "/community-partners" },
     // { name: "Locations", path: "/locations" },
   ];
   const [menuOpen, setMenuOpen] = useState(false);

@@ -11,7 +11,7 @@ function LandingHero() {
     ],
     paragraphs: [
       {
-        text: "Kids hold things we sometimes forget: big feelings, tiny worries, the kind of restlessness that looks like fidgeting but feels much deeper. We believe every child deserves a space that’s soft, steady and brave enough for all of that. Our kid-focused yoga therapy meets them where they are by using proven techniques wrapped in games and play, so they can move, settle and build healthy habits that stay with them long after class ends.",
+        text: "Kids hold things we sometimes forget: big feelings, tiny worries, the kind of restlessness that looks like fidgeting but feels much deeper. We believe every child deserves a space that’s soft, steady and brave enough for all of that. Our kid-focused therapy meets them where they are, so they can move, settle and build healthy habits that stay with them long after class ends.",
         class: "text-center",
       },
     ],

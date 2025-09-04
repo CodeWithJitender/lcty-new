@@ -16,6 +16,16 @@ function BlogSection() {
       description:
         `Do you remember one of those evenings where you're trying to cook dinner after a hectic day and your 10-month-old starts crying in their chair.`,
     },
+    {
+      title: "Psychotherapy Explained: What to Expect and How It Works",
+      subtitle: "using simple words",
+      author: "Olivia Rhye",
+      date: "20 Jan 2024",
+      link: "/blog/blog2",
+      image: "vol-form-2.jpg", // Replace with your image
+      description:
+        `Psychotherapy, often called “talk therapy,” is a powerful tool that helps people navigate life’s challenges, understand their emotions, and build healthier ways of thinking and coping...`,
+    },
   ];
   const data = {
     title: [

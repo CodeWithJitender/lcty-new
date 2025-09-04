@@ -116,15 +116,16 @@ function WhyYouAreHereSection() {
               <Heading data={data} />
             </div>
             <p className="mb-5">
-              You want to watch your child smile, try new things, and grow and sometimes that takes a little extra love and support. Maybe they need:
+             You want to watch your child smile, try new things and grow, and sometimes that takes a little extra love and support to cater to their special needs. Maybe they need:
+
+
+
             </p>
             <ul className="space-y-3 mb-8">
               {[
                 "patient support with speech or social skills,",
                 "encouragement to grow their physical or fine-motor confidence, or",
                 "gentle strategies to settle overwhelming emotions.",
-                // "Your child needs help with academic subjects for better understanding.",
-                // "They struggle with making friends and need support in social skills.",
               ].map((item, i) => (
                 <li
                   key={i}
@@ -136,7 +137,7 @@ function WhyYouAreHereSection() {
               ))}
             </ul>
             <p>
-           We meet families where they are, with kindness and practical support that helps children shine. </p>
+        We meet families where they are, with kindness and practical support that helps children shine.</p>
 
             <div className="mt-7">
               <ButtonPrimary link="https://app.practiceperfectemr.com/onlinebooking/633/#/landing/littlechamps" text="Register Now" />
