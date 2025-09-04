@@ -11,57 +11,34 @@ gsap.registerPlugin(ScrollTrigger);
 const imageUrl = "Yoga3.png";
 
 const Culture = () => {
-  const containerRef = useRef();
-  const contentRef = useRef();
+  // const containerRef = useRef();
+  // const contentRef = useRef();
 
-  useGSAP(() => {
-    ScrollTrigger.create({
-      trigger: containerRef.current,
-      start: "top top",
-      end: "bottom bottom",
-      pin: contentRef.current,
-    });
-  });
+  // useGSAP(() => {
+  //   ScrollTrigger.create({
+  //     trigger: containerRef.current,
+  //     start: "top top",
+  //     end: "bottom bottom",
+  //     pin: contentRef.current,
+  //   });
+  // });
   const settings = {
-    centerMode: true,
+    centerMode: false,
     centerPadding: "60px", // optional: adjust padding around centered slide
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 5, // default (large screen)
+    slidesToShow: 1, // default (large screen)
     slidesToScroll: 1,
     arrows: true,
     autoplay: true,
     autoplaySpeed: 2000,
     // dots: true,
-    responsive: [
-      {
-        breakpoint: 1280, // < 1280px
-        settings: {
-          slidesToShow: 3,
-          centerPadding: "40px",
-        },
-      },
-      {
-        breakpoint: 1024, // < 1024px
-        settings: {
-          slidesToShow: 2,
-          centerPadding: "30px",
-        },
-      },
-      {
-        breakpoint: 640, // < 640px (mobile)
-        settings: {
-          slidesToShow: 1,
-          centerPadding: "20px",
-        },
-      },
-    ],
+    
   };
   return (
     <section
       className="bg-white culture-section py-[5vw] lg:py-[3vw]"
-      ref={containerRef}
     >
       <h2 className="h1 mb-4 secondary-text-1 px-5 text-center block lg:hidden">
         <span className="font-calvino">Our Culture: </span>
@@ -83,7 +60,7 @@ const Culture = () => {
       <div className="container-xxl pt-0 lg:pt-10 pb-20 px-5 lg:px-0">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
           {/* Text Content */}
-          <div className="" ref={contentRef}>
+          <div className="" >
             <h2 className="h1 mb-4 secondary-text-1 hidden lg:block">
               <span className="font-calvino">Our Culture: </span>
               <span className="font-calvino-italic"> Yours is Ours </span>
@@ -130,9 +107,17 @@ const Culture = () => {
           </div>
           {/* Image */}
           <div className="hidden lg:block">
+          <Slider {...settings}>
+          <div className="px-1">
             <img src={imageUrl} alt="Kids Yoga" className=" w-full mb-5" />
+          </div>
+          <div className="px-1">
             <img src={imageUrl} alt="Kids Yoga" className=" w-full mb-5" />
+          </div>
+          <div className="px-1">
             <img src={imageUrl} alt="Kids Yoga" className=" w-full mb-5" />
+          </div>
+        </Slider>
           </div>
         </div>
       </div>
