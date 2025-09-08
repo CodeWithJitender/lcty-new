@@ -3,6 +3,7 @@ import Card from "../../components/Card";
 import Hero from "../../components/Hero";
 import ButtonPrimary from "../../components/ButtonPrimary";
 import Heading from "../../components/Heading";
+import TestimonialSlider from "./TestimonialSlider";
 
 function SuccessStories() {
   const story = [
@@ -41,19 +42,19 @@ function SuccessStories() {
       { text: "Success ", class: "font-calvino" },
       { text: "Stories", class: "font-calvino-italic" },
     ],
-    paragraphs: [
-      {
-        text: "Every child's journey is unique, and we're so lucky to be a part of it. These inspiring success stories come from real families who've seen amazing transformations. Imagine brighter smiles, stronger skills and a new sense of confidence – all thanks to Little Champs Therapy & Yoga. We truly hope they uplift and encourage you as much as they do us!",
-        class: "text-center",
-      },
-    ],
+    // paragraphs: [
+    //   {
+    //     text: "Every child's journey is unique, and we're so lucky to be a part of it. These inspiring success stories come from real families who've seen amazing transformations. Imagine brighter smiles, stronger skills and a new sense of confidence – all thanks to Little Champs Therapy & Yoga. We truly hope they uplift and encourage you as much as they do us!",
+    //     class: "text-center",
+    //   },
+    // ],
     fontSize: "h3 ",
     textAlign: "text-center m-auto",
     spacing: "",
-    btn: {
-      text: "Write Your Success Story",
-      link: "/success-stories",
-    },
+    // btn: {
+    //   text: "Write Your Success Story",
+    //   link: "/success-stories",
+    // },
   };
   // const navigate = useNavigate();
   return (
@@ -83,10 +84,10 @@ function SuccessStories() {
             /> */}
           </div>
         </div>
+      <TestimonialSlider />
 
         <div className="story-container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-8 items-stretch">
-          {/* Mapping through the stories */}
-          {story.map((item, index) => (
+          {/* {story.map((item, index) => (
             <div
               key={item.id}
               className="h-full bg"
@@ -95,7 +96,6 @@ function SuccessStories() {
             >
               <div
                 className="card  "
-                // onClick={() => navigate(data.redirectUrl)}
                 data-aos="fade-up"
                 data-aos-duration="1000"
               >
@@ -107,7 +107,7 @@ function SuccessStories() {
                 </div>
               </div>
             </div>
-          ))}
+          ))} */}
           {/* <div data-aos="fade-right" data-aos-delay="300">
             <Card data={story[0]} />
           </div>

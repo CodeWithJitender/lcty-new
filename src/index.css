@@ -416,7 +416,19 @@ p {
   transform: rotate(5deg);
 }
 
-
+.testi .slick-dots li.slick-active{
+  border: 1px solid black;
+  border-radius: 50%;
+  color: transparent;
+}
+.testi .slick-dots li.slick-active::before{
+  color: transparent;
+}
+.testi .slick-dots li.slick-active button{
+display: flex;
+align-items: center;
+justify-content: center;
+}
 @media screen and (max-width: 768px) {
   .container-fixed {
     padding: 50px 20px;
