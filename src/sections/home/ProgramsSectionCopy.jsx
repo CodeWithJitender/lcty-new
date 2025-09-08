@@ -22,7 +22,7 @@ function ProgramsSection() {
       title: "Music Therapy",
       description:
         "Music therapy is a fun and positive way to express emotions, communicate and interact with others through movement, melody and rhythm.",
-      image: "mt-h.png",
+      image: "mt-h.jpg",
       bg: "#F9D9E4",
       link: "/programs/music-therapy",
     },

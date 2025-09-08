@@ -44,7 +44,7 @@ const WhoWeAreSection = () => {
     >
       {/* Background Video */}
       <video
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-cover object-top"
         src={backgroundVideo}
         autoPlay
         muted

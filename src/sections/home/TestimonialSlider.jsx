@@ -24,7 +24,6 @@ export default function TestimonialSlider() {
       role: "Creative Head",
     },
   ];
-
   const settings = {
     dots: true,
     arrows: false,
