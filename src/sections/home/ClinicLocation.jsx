@@ -75,10 +75,12 @@ function ClinicLocation() {
         </div>
         </div>
 
-        <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 mx-auto">
+        <div className="flex flex-wrap grid-cols-1  sm:grid-cols-2 md:grid-cols-3 mx-auto justify-center align-middle content-center">
           {
             clinics.map((clinic, index)=>(
-              <Card data={clinic} />
+              <div className="max-w-[300px]">
+                <Card data={clinic} />
+              </div>
             ))
           }
           {/* <div className="xl:translate-y-[35%]">

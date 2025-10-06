@@ -44,7 +44,7 @@ export default function TestimonialSlider() {
               “{item.quote}”
             </p>
             <div className="mt-6">
-              <h4 className="text-xl font-archivo font-semibold mb-1">
+              <h4 className="text-xl font-archivo font-semibold mb-1 text-[#ff96ff]">
                 {item.name}
               </h4>
               <p className="text-sm font-archivo text-gray-500">{item.role}</p>

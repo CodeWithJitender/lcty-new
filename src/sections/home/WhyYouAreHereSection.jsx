@@ -98,13 +98,13 @@ function WhyYouAreHereSection() {
           {/* Image */}
           <div className="h-full">
             <Slider {...settings}>
-          <div className="px-1 h-[450px]">
+          <div className="px-1 h-[510px]">
             <img src="wh1.png" alt="Kids Yoga" className=" w-full h-full object-cover object-center " />
           </div>
-          <div className="px-1 h-[450px]">
+          <div className="px-1 h-[510px]">
             <img src="wh2.jpg" alt="Kids Yoga" className=" w-full h-full object-cover object-center " />
           </div>
-          <div className="px-1 h-[450px]">
+          <div className="px-1 h-[510px]">
             <img src="wh3.jpeg" alt="Kids Yoga" className=" w-full h-full object-cover object-center " />
           </div>
         </Slider>
