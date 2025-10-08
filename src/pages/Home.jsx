@@ -110,7 +110,7 @@ function Home() {
     ],
     paragraphs: [
       {
-        text: "Let's chat! We offer a free consultation today to discuss their unique needs and see how our personalized therapy and yoga programs can truly help. We want to give your child the gift of support that's as unique as they are!",
+        text: "We offer a free consultation today to discuss their unique needs and see how our personalized therapy and yoga programs can truly help. We want to give your child the gift of support that's as unique as they are! Let's chat!",
         class: "text-center",
       },
     ],

@@ -84,7 +84,7 @@ export default function OurJourney() {
               <JourneyCard data={steps[0]} />
             </div>
             <div className="journey-img md:w-[40%] h-[300px] ">
-              <img src="wh1.png" alt="" className="w-full h-full object-cover object-bottom " />
+              <img src="wh1.png" alt="" className="w-full h-full object-cover object-top " />
             </div>
           </div>
         </div>
@@ -180,7 +180,7 @@ export default function OurJourney() {
               <JourneyCard data={steps[6]} />
             </div>
             <div className="journey-img img-last md:w-[40%] h-[300px]">
-              <img src="wh7.png" alt="" className=" w-full h-full object-cover object-center" />
+              <img src="wh7.png" alt="" className=" w-full h-full object-cover object-top" />
             </div>
           </div>
         </div>

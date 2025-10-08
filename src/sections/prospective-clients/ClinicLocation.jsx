@@ -9,39 +9,39 @@ gsap.registerPlugin(ScrollTrigger);
 const locations = [
   {
     city: "LCTY",
-    branch: "W Palmetto park",
+    branch: "Boca Raton, FL",
     address:
-      "Yue Yuen Industrial Park, Huangjiang Town, Dongguan, Guangdong Province, P.R.C.",
-    tel: "+86-769-8336-4958",
-    email: "noypac@vydg.com.cn",
-    link: "#", // Replace with actual map or contact link
+      "1499 W Palmetto Park Rd # 212, Boca Raton, FL 33432, United States",
+    tel: "+15614944499",
+    email: "info@littlechampstherapy.com",
+    link: "https://maps.app.goo.gl/EP55PPr6s1iVs37c6", // Replace with actual map or contact link
   },
   {
     city: "LCTY",
-    branch: "W Palmetto park",
+    branch: "West Palm Beach, FL",
     address:
-      "Yue Yuen Industrial Park, Huangjiang Town, Dongguan, Guangdong Province, P.R.C.",
-    tel: "+86-769-8336-4958",
-    email: "noypac@vydg.com.cn",
-    link: "#",
+      "2711 Exchange Ct Suite B, West Palm Beach, FL 33409, United States",
+    tel: "+15614944499",
+    email: "info@littlechampstherapy.com",
+    link: "https://maps.app.goo.gl/mmRrTwqBkZtRarLi8",
   },
   {
     city: "LCTY",
-    branch: "W Palmetto park",
+    branch: "Delray Beach, FL",
     address:
-      "Yue Yuen Industrial Park, Huangjiang Town, Dongguan, Guangdong Province, P.R.C.",
-    tel: "+86-769-8336-4958",
-    email: "noypac@vydg.com.cn",
-    link: "#",
+      "14565 Sims Rd, Delray Beach, FL 33484, United States",
+    tel: "+15614944499",
+    email: "info@littlechampstherapy.com",
+    link: "https://maps.app.goo.gl/242u5aNv4WW9cLxY7",
   },
   {
     city: "LCTY",
-    branch: "W Palmetto park",
+    branch: "Coral Springs, FL",
     address:
-      "Yue Yuen Industrial Park, Huangjiang Town, Dongguan, Guangdong Province, P.R.C.",
-    tel: "+86-769-8336-4958",
-    email: "noypac@vydg.com.cn",
-    link: "#",
+      "8110 Royal Palm Blvd #110, Coral Springs, FL 33065, United States",
+    tel: "+15614944499",
+    email: "info@littlechampstherapy.com",
+    link: "https://maps.app.goo.gl/J4w3QLsywnkQADiC8",
   },
 ];
 

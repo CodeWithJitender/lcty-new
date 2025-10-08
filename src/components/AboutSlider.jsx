@@ -43,7 +43,7 @@ function AboutSlider({ imgData = [] }) {
             <img
               src={typeof img === "string" ? img : img.src}
               alt={img.alt || `slide-${index}`}
-              className="w-full"
+              className="w-full h-[250px] object-cover object-top"
             />
           </div>
         ))}

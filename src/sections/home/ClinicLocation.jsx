@@ -21,14 +21,14 @@ function ClinicLocation() {
       btnBg: "secondary-bg-1",
       btnText: "text-white",
     },
-    {
-      title: "FT Lauderdale, FL",
-      image: "l111.jpg",
-      redirectUrl: "/location",
-      bgColor: "primary-bg-2",
-      btnBg: "secondary-bg-1",
-      btnText: "text-white",
-    },
+    // {
+    //   title: "FT Lauderdale, FL",
+    //   image: "l111.jpg",
+    //   redirectUrl: "/location",
+    //   bgColor: "primary-bg-2",
+    //   btnBg: "secondary-bg-1",
+    //   btnText: "text-white",
+    // },
     {
       title: "West Palm Beach, FL",
       image: "c111.jpg",
@@ -75,10 +75,10 @@ function ClinicLocation() {
         </div>
         </div>
 
-        <div className="flex flex-wrap grid-cols-1  sm:grid-cols-2 md:grid-cols-3 mx-auto justify-center align-middle content-center">
+        <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-4 mx-auto justify-center align-middle content-center">
           {
             clinics.map((clinic, index)=>(
-              <div className="max-w-[300px]">
+              <div className="">
                 <Card data={clinic} />
               </div>
             ))

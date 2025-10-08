@@ -99,10 +99,10 @@ function WhyYouAreHereSection() {
           <div className="h-full">
             <Slider {...settings}>
           <div className="px-1 h-[510px]">
-            <img src="wh1.png" alt="Kids Yoga" className=" w-full h-full object-cover object-center " />
+            <img src="wh1.png" alt="Kids Yoga" className=" w-full h-full object-cover object-top " />
           </div>
           <div className="px-1 h-[510px]">
-            <img src="wh2.jpg" alt="Kids Yoga" className=" w-full h-full object-cover object-center " />
+            <img src="wh2.jpg" alt="Kids Yoga" className=" w-full h-full object-cover object-top " />
           </div>
           <div className="px-1 h-[510px]">
             <img src="wh3.jpeg" alt="Kids Yoga" className=" w-full h-full object-cover object-center " />
@@ -123,9 +123,9 @@ function WhyYouAreHereSection() {
             </p>
             <ul className="space-y-3 mb-8">
               {[
-                "patient support with speech or social skills,",
-                "encouragement to grow their physical or fine-motor confidence, or",
-                "gentle strategies to settle overwhelming emotions.",
+                "Patient support with speech or social skills,",
+                "Encouragement to grow their physical or fine-motor confidence, or",
+                "Gentle strategies to settle overwhelming emotions.",
               ].map((item, i) => (
                 <li
                   key={i}

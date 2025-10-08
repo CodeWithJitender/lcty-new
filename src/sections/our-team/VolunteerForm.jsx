@@ -7,8 +7,8 @@ function VolunteerForm() {
       <div className="container-fixed">
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-10 items-start">
           {/* Image */}
-          <div className="" data-aos="fade-right">
-            <img src="vol-form.jpg" alt="Kids Yoga" className=" w-full mb-5" />
+          <div className="h-full max-h-full" data-aos="fade-right">
+            <img src="vol-form.jpg" alt="Kids Yoga" className=" w-full mb-5 h-full object-cover object-top" />
           </div>
           {/* Text Content */}
           <div className="" data-aos="fade-left">

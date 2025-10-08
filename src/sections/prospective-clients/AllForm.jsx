@@ -172,10 +172,10 @@ const [models, setModels] = useState();
           data-aos-duration="1000"
           data-aos-delay="200"
         >
-          Ready to start something amazing? This application is your first step
+           This application is your first step
           into our community and becoming a part of this lovely journey. We're
           thrilled to get to know more about you and have you along with us as
-          we continue ahead.
+          we continue ahead. Ready to start something amazing?
         </p>
         <div
           className="flex justify-center mt-10"

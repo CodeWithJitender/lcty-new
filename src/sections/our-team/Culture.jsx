@@ -57,7 +57,7 @@ const Culture = () => {
           </div>
         </Slider>
       </div>
-      <div className="container-xxl pt-0 lg:pt-10 pb-20 px-5 lg:px-0">
+      <div className="container-xxl pt-0 lg:pt-10  px-5 lg:px-0">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
           {/* Text Content */}
           <div className="" >
@@ -103,7 +103,9 @@ const Culture = () => {
               ))}
             </ul> */}
 
-            <ButtonPrimary link="discover" text="Register Now" />
+            <div className="relative z-40">
+              <ButtonPrimary link="discover" text="Register Now" />
+            </div>
           </div>
           {/* Image */}
           <div className="hidden lg:block">
